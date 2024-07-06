@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MERN</title>
+      <style>
+        .Intro
+        {
+            font-family: Robot;
+            font-weight: bold;
+            color: rgb(183, 0, 255);
+            
+        }
+        .Button
+        {
+            background-color: black;
+            color: white;
+        }
+        .dark-mode {
+        background-color: rgb(24, 24, 24);
+        color: white;
+        }
+      </style>
+    </head>
+    <body bgcolor= #e6ffff>
+      <p class="Intro"> 
+        Welcome to HTML!!
+       </p>
+      <button class="Button">
+        Hello 
+      </button> 
+      <p class="Intro"> 
+       Welcome to HTML!!
+      </p>
+
+      <button onclick="myFunction()">Toggle dark mode</button>
+
+      <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+      </script>
+    </body>
+</html>
